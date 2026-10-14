@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght,GRAD@0,8..144,100..900,44;1,8..144,100..900,44&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EEEEEE;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.card1{
+    width: 450px;
+    height: fit-content;
+    padding: 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+}
+
+.card1 img{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+}
+
+
+.img i{
+    font-size: 40px;
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+
+.main-text{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-text i{
+    font-size: 30px;
+    margin: 5px;
+}
+
+.card1 span{
+    padding-right: 90px;
+    font-size: xx-large;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.card1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+
+}
+
+.calories {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+}
+
+.price{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.pric1{
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.pric2{
+    font-size: 20px;
+    padding-right: 100px;
+    padding-top: 8px;
+    color: red;
+    text-decoration: line-through;
+}
+
+.price button{
+    width: 144px;
+    height: 44px;
+    border: none;
+    background-color: #2fcc71;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.price button:hover{
+    background-color: rgb(65, 251, 189);
+}
+
+
+
+.card2{
+    width: 450px;
+    height: fit-content;
+    padding: 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+}
+
+.card2 img{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+}
+
+
+.img2 i{
+    font-size: 40px;
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+
+.main-text2{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-text2 i{
+    font-size: 30px;
+    margin: 5px;
+}
+
+.card2 span{
+    padding-right: 146px;
+    font-size: xx-large;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.card2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+
+}
+
+.calories2 {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+}
+
+.price2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.price2 .pric1{
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.price2 .pric2{
+    font-size: 20px;
+    padding-right: 100px;
+    padding-top: 8px;
+    color: red;
+    text-decoration: line-through;
+}
+
+.price2 button{
+    width: 144px;
+    height: 44px;
+    border: none;
+    background-color: #2fcc71;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.price2 button:hover{
+    background-color: rgb(65, 251, 189);
+}
+
+
+
+
+.card3{
+    width: 450px;
+    height: fit-content;
+    padding: 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+}
+
+.card3 img{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+}
+
+
+.img3 i{
+    font-size: 40px;
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+
+.main-text3{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-text3 i{
+    font-size: 30px;
+    margin: 5px;
+}
+
+.card3 span{
+    padding-right: 130px;
+    font-size: xx-large;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.card3 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+
+}
+
+.calories3 {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+}
+
+.price3{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.price3 .pric1{
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.price3 .pric2{
+    font-size: 20px;
+    padding-right: 100px;
+    padding-top: 8px;
+    color: red;
+    text-decoration: line-through;
+}
+
+.price3 button{
+    width: 144px;
+    height: 44px;
+    border: none;
+    background-color: #2fcc71;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.price3 button:hover{
+    background-color: rgb(65, 251, 189);
+}
+
+
+/* dzaaaan bevri gamovida vici vici. root-it ufro mokle kodi iqneboda magram jer ARVICI */
